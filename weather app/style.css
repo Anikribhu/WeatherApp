@@ -94,7 +94,8 @@ input.search-bar{
   color: rgb(46, 57, 66);
   font-family: inherit;
   font-size: 105%;
-  width: calc(100%-100px);
+  max-width:calc(100%-100px);
+  /*max-width: 200px;*/
 }
 
 button:hover{
@@ -104,4 +105,14 @@ button:hover{
 h1.temp{
   margin: 1;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  input.search-bar {
+    max-width: 200px;
+  }
+  .footer-col h4 {
+    text-align: left;
+    padding: 0 35%;
+  }
 }

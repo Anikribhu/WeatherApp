@@ -8,3 +8,12 @@ document.querySelector(".submit_btn").addEventListener("click", (event) => {
   weather.search();
   event.preventDefault();
 });
+
+@media screen and (max-height: 1920px){
+  body {
+    max-height: 1920px;
+  }
+  .inter {
+    max-height: 1920px;
+  }
+}

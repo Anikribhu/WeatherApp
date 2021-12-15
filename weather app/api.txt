@@ -1,0 +1,10 @@
+lihol12690@hagendes.com
+12345
+
+API=b8fffe7fea6232734ae5c969c3ae1076
+
+
+document.querySelector(".submit_btn").addEventListener("click", (event) => {
+  weather.search();
+  event.preventDefault();
+});

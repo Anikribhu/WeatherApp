@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+    background-repeat: none;
+    background-attachment: fixed;
+    font-size: 120%;
+    height: 100vh;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+  }
+.inter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: right;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.507);
+  padding: 15px;
+  margin: 50px 30px;
+  max-width: 900px;
+  backdrop-filter: blur(9px) brightness(0.5);
+  /*filter: blur(9px) brightness(0.5);*/
+}
+.icon {
+  background-color: rgba(203, 207, 224, 0.897);
+  padding: 5px;
+  margin: 0px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.inter h2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+.weatherloading {
+  background-color: #63f182;
+  background-image: linear-gradient(#ba3cbe, #e2d742, #d83261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  
+}
+.card {
+  /*background: #000000d0;*/
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: auto;
+  margin: 0px 20px;
+  }
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #000000b7;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+.weather_loading {
+  display: flex;
+  flex-basis: 1, 1, 50%;
+  font-family: 'Raleway',sans-serif;
+  
+  font-size: 16px;
+}
+
+input.search-bar{
+  border: none;
+  outline: none;
+  padding: .4em 1em;
+  border-radius: 24px;
+  background: #ebe8ff;
+  color: rgb(46, 57, 66);
+  font-family: inherit;
+  font-size: 105%;
+  max-width:calc(100%-100px);
+  /*max-width: 200px;*/
+}
+
+button:hover{
+  background-color: aqua;
+}
+
+h1.temp{
+  margin: 1;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  input.search-bar {
+    max-width: 200px;
+  }
+  .footer-col h4 {
+    text-align: left;
+    padding: 0 35%;
+  }
+}

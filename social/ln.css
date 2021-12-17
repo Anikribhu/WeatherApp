@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+  background-repeat: none;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#sinha, #mallick {
+  font-size: 25px;
+  
+}
+ /*Subham's CSS*/
+.fb-subham{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(8, 8, 8, 0.507);
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  height: 40vh;
+  backdrop-filter: blur(10px) grayscale(0.6) brightness(0.85);
+  color: aliceblue;
+  text-align: center;
+ }
+
+ img {
+   height: 90px;
+   width: 90px;
+   border-radius: 50%;
+   padding: 5px;
+ }
+
+ /*Anik's CSS*/
+ .fb-anik{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(8, 8, 8, 0.507);
+  backdrop-filter: blur(10px) grayscale(0.6) brightness(0.85);
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  height: 40vh;
+  color:aliceblue;
+  text-align: center;
+ }
+
+ img {
+   height: 90px;
+   width: 90px;
+   border-radius: 50%;
+   padding: 5px;
+ }
+ .fb-anik:hover {
+ color: #24a4d6;
+  background: #fff;
+  
+ }
+ .fb-subham:hover {  
+  color: #24a4d6;
+    background: #fff;
+ }

@@ -18,7 +18,9 @@ We have got our live github-pages environment. Click [here](https://anikribhu.gi
 # Screenshots
 
 ## Home
-
+<img src="https://github.com/Anikribhu/WeatherApp/blob/5db6cc2410ad4ddbf5145ebef553b3b28451ac91/ScreenShot/home.png">
 ## About Us
+<img src="https://github.com/Anikribhu/WeatherApp/blob/5db6cc2410ad4ddbf5145ebef553b3b28451ac91/ScreenShot/faq.png">
 
-# DechHAck2021
+
+# DecHack2021

@@ -11,7 +11,7 @@ Enjoy searching.
 1. Download the repository
 2. Open the [Index.html](Index.html) And you are good to go.
 
-Else
+<h3>OR</h3>
 
 We have got our live github-pages environment. Click [here](https://anikribhu.github.io/WeatherApp/) to open.
 

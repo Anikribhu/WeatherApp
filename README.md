@@ -1,5 +1,6 @@
 # WeatherApp - A Dechack Devfolio Project
-Weather App is an online web app.
+Weather App is an online web app project.<br>
+Can be viewed in any device.
 
 It helps you to know the weather details of any place on the globe.
 No need to google the weather of a certain place.<br>
@@ -14,4 +15,10 @@ Else
 
 We have got our live github-pages environment. Click [here](https://anikribhu.github.io/WeatherApp/) to open.
 
-# DecHack2021
+# Screenshots
+
+## Home
+
+## About Us
+
+# DechHAck2021

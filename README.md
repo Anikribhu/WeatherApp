@@ -19,8 +19,11 @@ We have got our live github-pages environment. Click [here](https://anikribhu.gi
 
 ## Home
 <img src="https://github.com/Anikribhu/WeatherApp/blob/5db6cc2410ad4ddbf5145ebef553b3b28451ac91/ScreenShot/home.png">
-## About Us
-<img src="https://github.com/Anikribhu/WeatherApp/blob/5db6cc2410ad4ddbf5145ebef553b3b28451ac91/ScreenShot/faq.png">
 
+## About Us
+<img src="https://github.com/Anikribhu/WeatherApp/blob/482b3a315733e404c8935cd4d1fbe0dbfdf79307/ScreenShot/about%20us.png">
+
+## FAQ's
+<img src="https://github.com/Anikribhu/WeatherApp/blob/482b3a315733e404c8935cd4d1fbe0dbfdf79307/ScreenShot/faq.png">
 
 # DecHack2021

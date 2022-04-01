@@ -1,64 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   font-family: 'Open Sans', sans-serif;
   background-image: url('https://source.unsplash.com/1920x1080/?landscape');
   background-repeat: none;
   background-attachment: fixed;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
 }
 main {
   height: 100vh;
 }
+.row{
+  height: 100vh;
+}
 
-#sinha, #mallick {
-  font-size: 25px;
+#sinha, #mallick, #sayan {
+  font-size: 35px;
   
 }
  /*Subham's CSS*/
-.subham{
+.subham, .anik, .sayan{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
+  border-width: 10px;
   box-shadow: 0 0 20px rgba(8, 8, 8, 0.507);
   max-width: 600px;
-  margin: 20px;
+  margin: 0px;
   padding: 20px;
-  height: 40vh;
+  height: 70vh;
   backdrop-filter: blur(10px) grayscale(0.6) brightness(0.85);
   color: aliceblue;
  }
- img {
-   height: 90px;
-   width: 90px;
+ .img {
+   height: 180px;
+   width: 180px;
    border-radius: 50%;
    padding: 5px;
+   box-shadow: 0px 2px 5px skyblue;
  }
 
 
- /*Anik's CSS*/
- .anik{
+ @media screen and (max-width: 992px){
+  main{
+    padding: 10px;
+  }
+  .row{
+    padding: 40px;
+  }
+  .subham,.anik, .sayan{
+    margin-bottom:40px ;
+  }
+ }
+ .back-btn{
+  display: inline-block;
+  border-radius: 100px;
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap-reverse;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(8, 8, 8, 0.507);
-  backdrop-filter: blur(10px) grayscale(0.6) brightness(0.85);
-  max-width: 600px;
-  margin: 20px;
-  padding: 20px;
-  height: 40vh;
-  color:aliceblue;
- }
- img {
-   height: 90px;
-   width: 90px;
-   border-radius: 50%;
-   padding: 5px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  background-color: whitesmoke;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
  }

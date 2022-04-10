@@ -1,4 +1,4 @@
-# WeatherApp - A Dechack Devfolio Project
+# WeatherApp - A Hack4bengal Project
 Weather App is an online web app project.<br>
 Can be viewed in any device.
 
@@ -26,4 +26,4 @@ We have got our live github-pages environment. Click [here](https://anikribhu.gi
 ## FAQ's
 <img src="https://github.com/Anikribhu/WeatherApp/blob/482b3a315733e404c8935cd4d1fbe0dbfdf79307/ScreenShot/faq.png">
 
-# DecHack2021
+# Hack4bengal 2022

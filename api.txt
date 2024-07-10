@@ -3,6 +3,7 @@ lihol12690@hagendes.com
 
 API=b8fffe7fea6232734ae5c969c3ae1076
 
+https://picsum.photos/1920/1080
 
 document.querySelector(".submit_btn").addEventListener("click", (event) => {
   weather.search();

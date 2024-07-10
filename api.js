@@ -32,7 +32,7 @@ let weather = {
       "Wind speed: " + speed + " km/h";
     document.querySelector(".weather").classList.remove("loading");
     document.body.style.backgroundImage =
-      "url('https://picsum.photos/seed/picsum/1920/1080?" + name + "')";
+      "url('https://picsum.photos/1920/1080/?" + name + "')";
   },
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);

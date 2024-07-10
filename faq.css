@@ -3,7 +3,7 @@ body {
  margin: auto;
  padding: 0;
  font-family: 'Open Sans', sans-serif;
- background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+ background-image: url('https://picsum.photos/1920/1080');
  background-image: blur(5px) brightness(0.5);
  background-repeat: none;
  background-attachment: fixed;
